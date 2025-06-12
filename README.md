@@ -1,6 +1,6 @@
 [KO](./README_ko.md) | [EN](./README.md)
 
-# CROCSS (Component-Role-Option-Condition Style System) System Guide
+# FECX(Front-end Contextual Experience) Convention
 
 CROCSS(Component-Role-Option-Condition Style System) is a structure-first, clear and intuitive CSS naming methodology designed for scalable UI development.
 
