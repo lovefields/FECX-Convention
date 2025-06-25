@@ -10,11 +10,11 @@ FECX(Front-end Contextual Experience Convention)은 "**사람이 가장 읽기 �
 
 ## 컨벤션 리스트
 
--   [📘 작성 규칙](./writing-rules/index_ko.md)
+-   📘 작성 규칙
     -   [HTML](./writing-rules/html_ko.md)
     -   [CSS](./writing-rules/css_ko.md)
     -   [Script (Javascript & TypeScript)](./writing-rules/script_ko.md)
--   [📐 네이밍 규칙](./naming-rules/index_ko.md)
+-   📐 네이밍 규칙
     -   [class](./naming-rules/class_ko.md)
     -   [script](./naming-rules/script_ko.md)
     -   [utiles & composables](./naming-rules/utiles&composables_ko.md)
