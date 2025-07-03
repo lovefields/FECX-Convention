@@ -25,7 +25,7 @@ CSS작성시에는 전부 소문자만을 사용합니다. 이는 파일 명도 
 
 ## 뎁스
 
--   선택자를 사용할때 최대 5뎁스의 제한이 존재합니다.
+-   선택자를 사용할때 최대 6뎁스의 제한이 존재합니다.
 -   1뎁스에는 주로 `page`, `com` 등이 사용 가능합니다.
 -   2뎁스에는 주로 `area`, `group`, `box` 등이 사용됩니다.
 
@@ -33,11 +33,11 @@ CSS작성시에는 전부 소문자만을 사용합니다. 이는 파일 명도 
 
 ```scss
 // ✅ 가능
-.ctx-user.com-modal .area-content .group-list .box-item .btn-delete {
+.ctx-user.com-modal .area-content .group-list .box-item .btn-delete .icon {
 }
 
 // ❌ 불가능
-.ctx-user.com-modal .area-content .group-list .box-item .btn-delete .icon {
+.ctx-user.com-modal .area-content .group-list .box-item .btn-delete .icon .path {
 }
 ```
 

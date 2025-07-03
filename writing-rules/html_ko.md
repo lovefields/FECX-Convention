@@ -35,7 +35,7 @@
 ### 컴포넌트
 
 ```html
-<MyComponent></MyComponet>
+<MyComponent></MyComponent>
 ```
 
 <br>

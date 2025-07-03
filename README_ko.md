@@ -8,6 +8,8 @@ FECX(Front-end Contextual Experience Convention)은 "**사람이 가장 읽기 �
 
 난독화가 기본적으로 되어있는 환경에서는 결국 "사람"이 읽기 쉬운 코드여야합니다.
 
+> FECX는 Nuxt에 최적화 되어있습니다.
+
 ## 컨벤션 리스트
 
 -   📘 작성 규칙
