@@ -103,7 +103,7 @@ function myFunction01(): string {
 }
 ```
 
-## If 문
+## if 문
 
 <br>
 
