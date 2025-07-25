@@ -8,6 +8,8 @@ In modern front-end development, everything is built through build tool, elimina
 
 Since code is obfuscated by default in these environments, it ultimately needs to be readable by humans above all else.
 
+> FECX is optimized for Nuxt.
+
 ## Convention List
 
 -   📘 Writing Rules
