@@ -56,18 +56,17 @@ FECX에서는 가독성과 유지보수를 높이기 위해 CSS속성을 다음�
 // 레이아웃 관련
 display
 content
-position
-top
-left
-right
-bottom
-box-*
 grid-*
 column-*
 flex-*
 justify-*
 align-*
 gap
+position
+top
+left
+right
+bottom
 width
 height
 margin
@@ -98,6 +97,7 @@ transform
 transition
 animation-*
 // 기타
+box-*
 resize
 overflow
 z-index

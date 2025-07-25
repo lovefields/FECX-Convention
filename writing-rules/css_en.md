@@ -14,12 +14,12 @@ When writing CSS, only lowercase letters are used. This rule also applies to fil
 
 ## Selectors
 
-| Selector | Usable | Exception |                  Description                  |
-| :----: | :-----------: | :-------: | :------------------------------------: |
-| class  |       O       |     X     |              Basic selector               |
-|   id   |       X       |     O     |   id selectors are allowed for root elements   |
-|  tag   |       X       |     O     |     Only allowed for reset CSS      |
-| global |       X       |     O     | Only allowed when selecting direct children |
+| Selector | Usable | Exception |                 Description                 |
+| :------: | :----: | :-------: | :-----------------------------------------: |
+|  class   |   O    |     X     |               Basic selector                |
+|    id    |   X    |     O     | id selectors are allowed for root elements  |
+|   tag    |   X    |     O     |         Only allowed for reset CSS          |
+|  global  |   X    |     O     | Only allowed when selecting direct children |
 
 <br>
 
@@ -56,18 +56,17 @@ At FECX, to enhance readability and maintainability, CSS properties are written 
 // Layout related
 display
 content
-position
-top
-left
-right
-bottom
-box-*
 grid-*
 column-*
 flex-*
 justify-*
 align-*
 gap
+position
+top
+left
+right
+bottom
 width
 height
 margin
@@ -98,6 +97,7 @@ transform
 transition
 animation-*
 // Others
+box-*
 resize
 overflow
 z-index
@@ -111,12 +111,12 @@ This applies uniformly to CSS, SCSS, and `<style>` blocks within Vue files.
 
 <br>
 
-| Order | Description                         |
-| :--- | :--------------------------- |
-| 1    | `@use`, `@forward` and other call statements |
-| 2    | `$` variable declarations                |
-| 3    | `@mixin` definitions                |
-| 4    | Selector-based style definitions      |
+| Order | Description                                  |
+| :---- | :------------------------------------------- |
+| 1     | `@use`, `@forward` and other call statements |
+| 2     | `$` variable declarations                    |
+| 3     | `@mixin` definitions                         |
+| 4     | Selector-based style definitions             |
 
 <br>
 
