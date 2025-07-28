@@ -21,3 +21,5 @@ FECX(Front-end Contextual Experience Convention)은 "**사람이 가장 읽기 �
     -   [script](./naming-rules/script_ko.md)
     -   [utiles & composables](./naming-rules/utiles&composables_ko.md)
     -   [image](./naming-rules/image_ko.md)
+-   ⚙️ 설정
+    -   [VSCode](./setting_ko.md)

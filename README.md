@@ -21,3 +21,5 @@ Since code is obfuscated by default in these environments, it ultimately needs t
     -   [script](./naming-rules/script_en.md)
     -   [utiles & composables](./naming-rules/utiles&composables_en.md)
     -   [image](./naming-rules/image_en.md)
+-   ⚙️ Setting
+    -   [VSCode](./setting_en.md)
