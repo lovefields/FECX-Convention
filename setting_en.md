@@ -130,16 +130,16 @@ Create `.stylelintrc.json` file to Root Directory.
             "height",
             "min-height",
             "max-height",
-            "margin",
-            "margin-top",
-            "margin-right",
-            "margin-bottom",
-            "margin-left",
             "padding",
             "padding-top",
             "padding-right",
             "padding-bottom",
             "padding-left",
+            "margin",
+            "margin-top",
+            "margin-right",
+            "margin-bottom",
+            "margin-left",
             "background",
             "background-color",
             "background-image",
@@ -221,4 +221,5 @@ Create `.stylelintrc.json` file to Root Directory.
         }
     ]
 }
+
 ```

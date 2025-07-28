@@ -69,8 +69,8 @@ right
 bottom
 width
 height
-margin
 padding
+margin
 // 색상 관련
 background
 color

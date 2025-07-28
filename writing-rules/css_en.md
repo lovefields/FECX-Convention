@@ -69,8 +69,8 @@ right
 bottom
 width
 height
-margin
 padding
+margin
 // Color related
 background
 color
