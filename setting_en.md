@@ -1,16 +1,26 @@
 [KO](./setting_ko.md) | [EN](./setting_en.md)
 
-# 설정 방법
+# Setting
+
+<br>
 
 Use Extension List
+
+<br>
 
 -   ESLint
 -   Prettier - Code formatter
 -   Stylelint
 
+<br>
+
 ## ESLint
 
+<br>
+
 Create `.eslintrc.json` file to Root Directory.
+
+<br>
 
 ```json
 {
@@ -22,9 +32,15 @@ Create `.eslintrc.json` file to Root Directory.
 }
 ```
 
+<br>
+
 ## Prettier - Code formatter
 
+<br>
+
 Create `.prettierrc.json` file to Root Directory.
+
+<br>
 
 ```json
 {
@@ -41,14 +57,24 @@ Create `.prettierrc.json` file to Root Directory.
 }
 ```
 
+<br>
+
 ## Stylelint
 
+<br>
+
 Install Node Module
+
+<br>
 
 -   `postcss-html`
 -   `stylelint-order`
 
+<br>
+
 Create `.stylelintrc.json` file to Root Directory.
+
+<br>
 
 ```json
 {

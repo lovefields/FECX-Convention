@@ -2,15 +2,25 @@
 
 # 설정 방법
 
+<br>
+
 확장 설치
+
+<br>
 
 -   ESLint
 -   Prettier - Code formatter
 -   Stylelint
 
+<br>
+
 ## ESLint
 
+<br>
+
 루트 경로에 `.eslintrc.json` 파일을 만듭니다.
+
+<br>
 
 ```json
 {
@@ -22,9 +32,15 @@
 }
 ```
 
+<br>
+
 ## Prettier - Code formatter
 
+<br>
+
 루트 경로에 `.prettierrc.json` 파일을 만듭니다.
+
+<br>
 
 ```json
 {
@@ -41,14 +57,24 @@
 }
 ```
 
+<br>
+
 ## Stylelint
 
+<br>
+
 다음 노드 모듈을 설치합니다.
+
+<br>
 
 -   `postcss-html`
 -   `stylelint-order`
 
+<br>
+
 루트 경로에 `.stylelintrc.json` 파일을 만듭니다.
+
+<br>
 
 ```json
 {
