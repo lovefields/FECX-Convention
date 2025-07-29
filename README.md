@@ -2,7 +2,7 @@
 
 # FECX(Front-end Contextual Experience) Convention
 
-FECX (Front-end Contextual Experience Convention) is founded on the philosophy of "**writing the most human-readable code possible.**"
+FECX (Front-end Contextual Experience) Convention is founded on the philosophy of "**writing the most human-readable code possible.**"
 
 In modern front-end development, everything is built through build tool, eliminating the need for abbreviations as was common in the past.
 
@@ -18,8 +18,10 @@ Since code is obfuscated by default in these environments, it ultimately needs t
     -   [Script (Javascript & TypeScript)](./writing-rules/script_en.md)
 -   📐 Naming Rules
     -   [class](./naming-rules/class_en.md)
+    -   [SCSS](./naming-rules/scss_en.md)
     -   [script](./naming-rules/script_en.md)
     -   [utiles & composables](./naming-rules/utiles&composables_en.md)
     -   [image](./naming-rules/image_en.md)
+    -   [URN](./naming-rules/urn_en.md)
 -   ⚙️ Setting
     -   [VSCode](./setting_en.md)
