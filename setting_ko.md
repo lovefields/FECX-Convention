@@ -70,6 +70,8 @@
 -   `postcss-html`
 -   `stylelint-order`
 
+> window의 경우 `postcss-scss`가 추가로 필요 할 수 도있습니다.
+
 <br>
 
 루트 경로에 `.stylelintrc.json` 파일을 만듭니다.

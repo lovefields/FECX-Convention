@@ -74,6 +74,8 @@ Install Node Module
 
 Create `.stylelintrc.json` file to Root Directory.
 
+> If you maybe need more install `postcss-scss` if you use Window os.
+
 <br>
 
 ```json
@@ -221,5 +223,4 @@ Create `.stylelintrc.json` file to Root Directory.
         }
     ]
 }
-
 ```
