@@ -38,7 +38,7 @@
 ex) `getRandomCode.ts`
 
 ```ts
-export _getRandomCode():string {
+export function _getRandomCode():string {
     ...
 }
 ```
@@ -61,5 +61,5 @@ export _getRandomCode():string {
 ex) `runLogout.ts`
 
 ```ts
-export _runLogout():void {}
+export function _runLogout(): void {}
 ```

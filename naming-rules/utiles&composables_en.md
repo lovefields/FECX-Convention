@@ -38,7 +38,7 @@ Examples of modifiers:
 ex) `getRandomCode.ts`
 
 ```ts
-export _getRandomCode():string {
+export function _getRandomCode():string {
     ...
 }
 ```
@@ -61,5 +61,5 @@ Examples of modifiers:
 ex) `runLogout.ts`
 
 ```ts
-export _runLogout():void {}
+export function _runLogout():void {}
 ```
