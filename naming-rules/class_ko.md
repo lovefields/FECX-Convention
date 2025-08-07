@@ -56,7 +56,7 @@ ex)
 
 다음과 같은 위계를 가지고 있습니다.
 
-`page` > `area` > `box` = `group` > `row`, `col`
+`page` > `area` > `box` > `group` > `row`, `col`
 
 `layout` 구조 클레스는 독자적으로 사용이 가능하며, 어플리케이션 전반에 걸쳐서 사용되는 독자적인 구조를 가집니다.
 
@@ -94,4 +94,79 @@ ex)
 <p class="text --red"></p>
 
 <button class="btn-close --active"></button>
+```
+
+### 예시
+
+```html
+<header class="com-header">
+    <div class="area-logo">
+        <a href="" class="logo">
+            <svg class="icon"></svg>
+        </a>
+    </div>
+
+    <nav class="list-menu">
+        <a href="" class="link"></a>
+        <a href="" class="link"></a>
+        <a href="" class="link"></a>
+    </nav>
+</header>
+
+<main class="page-main">
+    <section class="area-section01">
+        <h2 class="title"></h2>
+        <p class="caption"></p>
+    </section>
+
+    <section class="area-section02">
+        <div class="box-text">
+            <h2 class="title"></h2>
+            <p class="caption"></p>
+        </div>
+
+        <div class="list-card">
+            <div class="card">
+                <div class="group-image">
+                    <img class="img" src="" alt="" />
+                </div>
+
+                <div class="group-text">
+                    <p class="name"></p>
+                    <p class="description"></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="group-image">
+                    <img class="img" src="" alt="" />
+                </div>
+
+                <div class="group-text">
+                    <p class="name"></p>
+                    <p class="description"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="com-footer">
+    <div class="area-top">
+        <nav class="list-menu">
+            <a href="" class="link"></a>
+            <a href="" class="link"></a>
+            <a href="" class="link"></a>
+        </nav>
+
+        <div class="box-infomation">
+            <p class="name"></p>
+            <p class="address"></p>
+        </div>
+    </div>
+
+    <div class="area-bottom">
+        <p class="copy"></p>
+    </div>
+</footer>
 ```

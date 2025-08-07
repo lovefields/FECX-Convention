@@ -26,18 +26,20 @@ When writing CSS, only lowercase letters are used. This rule also applies to fil
 ## Depth
 
 -   When using selectors, there is a maximum limit of 6 depths.
--   1st depth mainly allows `page`, `com`, etc.
+-   1st depth mainly uses `page`, `com`, etc.
 -   2nd depth mainly uses `area`, `group`, `box`, etc.
+
+> The above rule is an example and not absolute.
 
 <br>
 
 ```scss
 // ✅ Possible
-.ctx-user.com-modal .area-content .group-list .box-item .btn-delete .icon {
+.ctx-user.com-modal .area-content .list-card .group-item .btn-delete .icon {
 }
 
 // ❌ Not Possible
-.ctx-user.com-modal .area-content .group-list .box-item .btn-delete .icon .path {
+.ctx-user.com-modal .area-content .list-card .group-item .btn-delete .icon .path {
 }
 ```
 
