@@ -124,3 +124,35 @@ if (myBoolean === true) {
     // ...
 }
 ```
+
+## Comments
+
+Comments should be written at a level that anyone can understand.
+
+### Variables
+
+For variables, write the comment to the right of the variable declaration.
+
+<br>
+
+ex)
+
+```ts
+const userName = ref<string>(""); // User name
+let counter:NodeJS.Timer; // Time limit counter variable
+```
+
+### Functions
+
+For functions, write the comment above the function declaration.
+
+<br>
+
+ex)
+
+```ts
+// Media file delete event
+function medaiFileDeleteEvent():void {
+    ...
+}
+```

@@ -124,3 +124,35 @@ if (myBoolean === true) {
     // ...
 }
 ```
+
+## 주석
+
+주석은 누구든지 이해할 수 있는 수준으로 작성하도록 합니다.
+
+### 변수
+
+변수의 경우 변수 선언문의 우측에 작성하도록 합니다.
+
+<br>
+
+ex)
+
+```ts
+const userName = ref<string>(""); // 유저 이름
+let counter:NodeJS.Timer; // 시간 제한 카운트 변수
+```
+
+### 함수
+
+함수의 경우 함수 선언문의 상단에 작성하도록 합니다.
+
+<br>
+
+ex)
+
+```ts
+// 미디어 파일 삭제 이벤트
+function medaiFileDeleteEvent():void {
+    ...
+}
+```
