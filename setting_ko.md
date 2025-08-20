@@ -67,9 +67,8 @@
 <br>
 
 -   `postcss-html`
+-   `postcss-scss`
 -   `stylelint-order`
-
-> window의 경우 `postcss-scss`가 추가로 필요 할 수 도있습니다.
 
 <br>
 

@@ -67,13 +67,12 @@ Install Node Module
 <br>
 
 -   `postcss-html`
+-   `postcss-scss`
 -   `stylelint-order`
 
 <br>
 
 Create `.stylelintrc.json` file to Root Directory.
-
-> If you maybe need more install `postcss-scss` if you use Window os.
 
 <br>
 
