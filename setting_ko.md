@@ -52,7 +52,6 @@
     "quoteProps": "as-needed",
     "trailingComma": "es5",
     "vueIndentScriptAndStyle": false,
-    "arrowParens": "avoid",
     "htmlWhitespaceSensitivity": "ignore"
 }
 ```
