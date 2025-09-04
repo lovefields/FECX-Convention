@@ -59,7 +59,7 @@ useHead({
 
 ## Type Declarations
 
-Type declarations must be separated into external files (`type.d.ts`).
+Separate the type declaration into possible external files (`type.d.ts`).
 
 <br>
 

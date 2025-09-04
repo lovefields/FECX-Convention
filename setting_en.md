@@ -50,9 +50,7 @@ Create `.prettierrc.json` file to Root Directory.
     "semi": true,
     "singleQuote": false,
     "quoteProps": "as-needed",
-    "trailingComma": "es5",
-    "vueIndentScriptAndStyle": false,
-    "htmlWhitespaceSensitivity": "ignore"
+    "trailingComma": "es5"
 }
 ```
 
@@ -107,7 +105,6 @@ Create `.stylelintrc.json` file to Root Directory.
             "grid-auto-columns",
             "grid-auto-flow",
             "grid-gap",
-            "gap",
             "flex",
             "flex-flow",
             "flex-grow",
@@ -119,6 +116,9 @@ Create `.stylelintrc.json` file to Root Directory.
             "align-items",
             "align-content",
             "align-self",
+            "gap",
+            "row-gap",
+            "column-gap",
             "position",
             "top",
             "left",
