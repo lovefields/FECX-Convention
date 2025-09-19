@@ -125,6 +125,22 @@ if (myBoolean === true) {
 }
 ```
 
+## Increment and Decrement
+
+<br>
+
+Do not use Increment and Decrement.<br>
+If you want use Increment and Decrement use follow :
+
+<br>
+
+```js
+let x = 3;
+
+x += 1; // Increment by 1
+x -= 1; // Decrement by 1
+```
+
 ## Comments
 
 Comments should be written at a level that anyone can understand.
