@@ -158,6 +158,16 @@ const userName = ref<string>(""); // User name
 let counter:NodeJS.Timer; // Time limit counter variable
 ```
 
+### Array
+
+For arrays, use `string[]` rather than `Array<String>`.
+
+<br>
+
+This is to reduce confusion with script reservations.
+
+<br>
+
 ### Functions
 
 For functions, write the comment above the function declaration.
